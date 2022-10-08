@@ -71,7 +71,6 @@ nav i{
     margin-right: 5px;
 }
 
-
 .btn{
     display: block;
     width: 100%;
@@ -171,6 +170,7 @@ button{
 .last-part{
     margin-top: 50px;
     display: flex;
+    justify-content: space-between;
     width: 80%;
     margin-left: 10px;
 }
@@ -202,4 +202,246 @@ button{
 span{
     font-size: bolder;
     font-weight: 600;
+}
+
+/* RESPONSIVENESS CODE */
+@media  screen and (max-width:1024px) {
+    body{
+        width: 90%;
+    }
+    .sides{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        height: auto;
+    }
+    .main{
+        width:  100%;
+        flex-direction: column;
+    }
+
+    .courses-container{
+        width: 100%;
+    }
+
+    .courses{
+        width:  100%;
+        margin-bottom: 50px;
+    }
+
+    .course-note{
+        width: 100%;
+    }
+
+   .last-part{
+    width:  100%;
+    height: auto;
+    flex-direction: row;
+   }
+   
+   .notice-1{
+    width: 80%;
+    height: auto;
+   }
+   .notice-2{
+    width: 80%;
+    height: auto;
+   }
+
+}
+@media  screen and (max-width:834px) {
+    body{
+        width: 90%;
+    }
+    .sides{
+        width: 35%;
+    }
+    nav{
+        width: 100%;
+        height: auto;
+    }
+    .main{
+        width:  60%;
+        flex-direction: column;
+    }
+
+    .courses-container{
+        flex-direction:column;
+        width: 80%;
+    }
+
+    .courses{
+        width:  100%;
+        margin-bottom: 50px;
+    }
+
+    .course-note{
+        width: 100%;
+    }
+
+   .last-part{
+    width:  100%;
+    height: auto;
+    flex-direction: row;
+   }
+   
+   .notice-1{
+    width: 80%;
+    height: auto;
+   }
+   .notice-2{
+    width: 80%;
+    height: auto;
+   }
+
+}
+
+@media  screen and (max-width:568px) {
+    body{
+        width: 95%;
+    }
+    .sides{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        height: auto;
+        overflow: scroll;
+    }
+    .main{
+        width:  60%;
+        flex-direction: column;
+    }
+
+    .courses-container{
+        flex-direction:column;
+        margin-bottom: -10px;
+        width: 100%;
+    }
+
+    .courses{
+        width:  100%;
+        margin-bottom: 30px;
+    }
+
+    .course-note{
+        width: 100%;
+    }
+
+   .last-part{
+    width:  100%;
+    height: auto;
+    flex-direction: column;
+   }
+   
+   .notice-1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+   }
+   .notice-2{
+    width: 100%;
+    height: auto;
+   }
+
+}
+
+@media  screen and (max-width:428px) {
+    body{
+        width: 95%;
+    }
+    .sides{
+        display: none;
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        height: auto;
+        overflow: scroll;
+    }
+    .main{
+        margin: 0 auto;
+        width:  100%;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+
+    .courses-container{
+        flex-direction:column;
+        margin-bottom: -10px;
+        width: 100%;
+    }
+
+    .courses{
+        width:  100%;
+        margin-bottom: 30px;
+    }
+
+    .course-note{
+        width: 100%;
+    }
+
+   .last-part{
+    width:  100%;
+    height: auto;
+    flex-direction: column;
+   }
+   
+   .notice-1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+   }
+   .notice-2{
+    width: 100%;
+    height: auto;
+   }
+
+}
+
+@media  screen and (max-width:280px) {
+    body{
+        width: 95%;
+    }
+    .main{
+        margin: 0 auto;
+        width:  100%;
+        flex-direction: column;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .courses-container{
+        flex-direction:column;
+        width: 80%;
+        text-align: center;
+    }
+
+    .courses{
+        width:  100%;
+        margin-bottom: 50px;
+    }
+
+    .course-note{
+        width: 100%;
+    }
+
+   .last-part{
+    width:  80%;
+    margin-top: 0;
+    height: auto;
+    flex-direction: column;
+   }
+   
+   .notice-1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+   }
+   .notice-2{
+    width: 100%;
+    height: auto;
+   }
+
 }
